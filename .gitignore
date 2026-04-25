@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Conda
+*.conda
+*.egg
+
+# Editor dirs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files – download programmatically)
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+datasets/*.csv
+datasets/*.parquet
+
+# Model artefacts
+*.model
+saved_models/
+
+# Outputs / figures
+figures/
+outputs/
